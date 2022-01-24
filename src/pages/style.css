@@ -1,14 +1,17 @@
 .imgr{
-    width: 130px;
-    border-radius: 80px;
+    width: 200px;
+    border-radius: 100px;
 }
 .ico{
-    width: 70px;
+    width: 120px;
     padding: 5px;
     border-radius: 80px;
 }
 .t{
-    font-size: 10px;
+    font-size: 12px;
+}
+.t1{
+    font-size: 14px;
 }
 .bg-success1{
     background-color: rgb(165, 202, 106);
