@@ -7,6 +7,12 @@ a{
   box-shadow: 0 0 0 0 black;
 }
 
+.ico{
+  width: 120px;
+  padding: 5px;
+  border-radius: 80px;
+}
+
 .container {
     max-width: 960px;
   }

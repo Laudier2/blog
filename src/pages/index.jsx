@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Ads from '../components/GoogleAds'
 import './style.css'
 
 export default function Home() {
@@ -90,6 +91,7 @@ export default function Home() {
                     </Link>
                 </p>
                 </div>
+                <Ads slot="5588472210" className="conatiner" />
                 <div className="bg-dark box-shadow mx-auto" ></div>
             </div>
             </div>
