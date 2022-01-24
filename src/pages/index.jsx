@@ -18,7 +18,7 @@ export default function Home() {
                     <Link className="py-2 d-none d-md-inline-block" to="/">Recursos</Link>
                     <Link className="py-2 d-none d-md-inline-block" to="/dash">Youtube</Link>
                     <Link className="py-2 d-none d-md-inline-block" to="/">GitHub</Link>
-                    <Link className="py-2 d-none d-md-inline-block" to="/register">Contatinos</Link> 
+                    <Link className="py-2 d-none d-md-inline-block" to="/register">E-mail</Link> 
                     <Link className="py-2 d-none d-md-inline-block" to="/login">Support</Link> 
                 </div>
             </nav>
