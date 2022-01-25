@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Ads from '../components/GoogleAds'
 import './style.css'
 
@@ -11,16 +10,14 @@ export default function Home() {
         <>
             <nav className="site-header sticky-top py-1">
                 <div className="container d-flex flex-column flex-md-row justify-content-between">
-                    <Link className="py-2" to="/">
+                    <a className="py-2" href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-                    </Link>
-                    <Link className="py-2 d-none d-md-inline-block" to="/">Home</Link>
-                    <Link className="py-2 d-none d-md-inline-block" to="/">Product</Link>
-                    <Link className="py-2 d-none d-md-inline-block" to="/">Recursos</Link>
-                    <Link className="py-2 d-none d-md-inline-block" to="/dash">Youtube</Link>
-                    <Link className="py-2 d-none d-md-inline-block" to="/">GitHub</Link>
-                    <Link className="py-2 d-none d-md-inline-block" to="/register">E-mail</Link> 
-                    <Link className="py-2 d-none d-md-inline-block" to="/login">Support</Link> 
+                    </a>
+                    <a className="py-2 d-none d-md-inline-block" href="/">Home</a>
+                    <a className="py-2 d-none d-md-inline-block" target={nova} href="https://www.youtube.com/channel/UCk8HdZCe8RFMkZqVIQ0mL3g">Youtube</a>
+                    <a className="py-2 d-none d-md-inline-block" target={nova} href="https://github.com/Laudier2?tab=repositories">GitHub</a>
+                    <a className="py-2 d-none d-md-inline-block" target={nova} href="https://developer-js.netlify.app/">Portifolio</a> 
+                    <a className="py-2 d-none d-md-inline-block" target={nova} href="https://www.linkedin.com/in/jos%C3%A9-santana-de-jesus-8949b3124/">Linkdin</a> 
                 </div>
             </nav>
 
@@ -30,7 +27,7 @@ export default function Home() {
             <div className="col-md-5 p-lg-5 mx-auto">
                 <h1 className="display-4 font-weight-normal">Laudier ST Developer</h1>
                 <p className="lead font-weight-normal">Crie gerecie seu sistema ou programas por aqui.</p>
-                <Link className="btn btn-outline-secondary" to="/">Contatinos</Link>
+                <a className="btn btn-outline-secondary" href="/">Contatinos</a>
             </div>
             <div className="product-device box-shadow d-none d-md-block"></div>
             <div className="product-device product-device-2 box-shadow d-none d-md-block"></div>
@@ -74,9 +71,9 @@ export default function Home() {
                 O Kali Linux é instalado em dispositivos ARM como Raspberry Pi , hosts de máquina virtual como VMWare e VirtualBox , ou diretamente no hardware como um laptop ou PC. A instalação é praticamente a mesma para Kali Linux no VMWare, VirtualBox, Raspberry Pi ou como o sistema operacional principal do seu laptop ou computador desktop
                 </p>
                 <p className="lead">
-                    <Link to="/" target={nova} className="btn btn-outline-secondary border-1">
+                    <a href="/" target={nova} className="btn btn-outline-secondary border-1">
                         Vamos ver como fuciona!
-                    </Link>
+                    </a>
                 </p>
                 <br />
                 <img src="https://www.techboxlab.com.br/images/conteudo/Linux/ubuntu-2104-release-features.jpeg" alt="img" className="ico" />
@@ -86,9 +83,9 @@ export default function Home() {
                     Sabendo um pouco da contribuição que o Ubuntu terá para a sua formação Linux, ou até mesmo para melhorar a sua experiência como usuário doméstico, que tal aprender a instalá-lo? O presente artigo fornece um guia prático para instalação do Ubuntu em oito etapas. Vamos a elas?
                 </p>
                 <p className="lead">
-                    <Link to="/" target={nova} className="btn btn-outline-secondary border-1">
+                    <a href="/" target={nova} className="btn btn-outline-secondary border-1">
                         Vamos ver como fuciona!
-                    </Link>
+                    </a>
                 </p>
                 </div>
                 <Ads slot="5588472210" className="conatiner" />
@@ -116,9 +113,9 @@ export default function Home() {
                     <p>Ola, Mundo</p>
                 </div>
                 <p className="lead">
-                    <Link to="/" target={nova} className='btn btn-outline-secondary' >
+                    <a href="/" target={nova} className='btn btn-outline-secondary' >
                     <strong> Quero conhecer</strong>	
-                    </Link>
+                    </a>
                 </p>
                 </div>
                 <div className="bg-dark box-shadow mx-auto" ></div>
@@ -127,7 +124,7 @@ export default function Home() {
                 <div className="my-3 py-3">
                 <h2 className="display-5 titolo">Aprenda Nodejs aqui</h2>
                 <br />
-                <img src="https://www.opus-software.com.br/wp-content/uploads/2018/09/nodejs.jpg" alt="img" className="ico" />
+                <img src="https://www.opus-software.com.br/wp-content/uploads/2018/09/nodejs.jpg" alt="img" className="ico mb-2" />
                 <p>
                     Node.js é um fenômeno, e já tem vários anos já. 
                     Diversos players gigantes da indústria de Internet tem adotado a plataforma, seja como uma ferramenta auxiliar, seja como sua principal tecnologia. O fato é que funciona, é eficiente e eficaz.                    
@@ -138,18 +135,24 @@ export default function Home() {
                 </p>
                 <br /><br />
                 <div className="rounded bg-dark col-md-12 text-white p-4 mb-2">
-                <hr className="bg-white" />
+                    <hr className="bg-white" />
                     <p>A baixo estamos declarando uma variavel y e atribuindo o valor de Olá, mundo a ela, deposi mostrando na tela com o comando console.log(y).</p>
-                    <p className="t1">x = "Ola, Mundo"</p>
+                    <p className="t1">let x = "Ola, Mundo"</p>
                     <p className="t1">console.log(x)</p>
                     <hr className="bg-white" />
                     <p className="t">Resultado abaixo!</p>
                     <p>Ola, Mundo</p>
+                    <hr className="bg-white" />
+                    <p>Exemplo 2</p>
+                    <p className="t1">const y = 2 + 2</p>
+                    <p className="t1">console.log(y)</p>
+                    <hr className="bg-white" />
+                    <p>4</p>
                 </div>
                 <p className="lead">
-                    <Link to="/" target={nova} className='btn btn-outline-secondary' >
+                    <a href="/" target={nova} className='btn btn-outline-secondary' >
                     <strong> Quero conhecer</strong>	
-                    </Link>
+                    </a>
                 </p>
                 </div>
                 <div className="bg-light box-shadow mx-auto" ></div>
@@ -179,7 +182,7 @@ export default function Home() {
                     unindo-se ao trio HTML, CSS e PHP, formam um grupo de linguagens que abrangem praticamente todas as exigências do desenvolvimento de uma página 
                     completa, dinâmica e com boa performance.Do final dos anos 90 até meados dos anos 2000, o JS ganhou grande popularidade ao ser utilizado por g
                     randes empresas para a construção de seus sites, como o Facebook, por exemplo.Alguns exemplos de sites que utilizam JS em seu front e back-end 
-                    hoje em dia são Ebay, LinkedIn e Yahoo.Mas o JS não se restringe mais apenas às páginas e aos navegadores, como foi durante vários anos: com o 
+                    hoje em dia são Ebay, aedIn e Yahoo.Mas o JS não se restringe mais apenas às páginas e aos navegadores, como foi durante vários anos: com o 
                     advento de diversos frameworks, APIs, melhorias e criação de centenas de funções, hoje já é possível utilizar JavaScript em aplicativos mobile, 
                     softwares para desktop e até mesmo em back-end.</p>
                     
@@ -187,36 +190,91 @@ export default function Home() {
                     <p>JavaScript, originalmente, é uma linguagem de programação client-side, 
                     ou seja, é executada do lado do usuário, mais especificamente pelo navegador utilizado por este usuário.</p>
                 
-                <br />
+                    <br />
+                    <div className="rounded bg-dark col-md-12 text-white p-4 mb-2">
+                    <hr className="bg-white" />
+                    <p>A baixo estamos vendo o </p>
+                    <p className="t1">let x = "Ola, Mundo"</p>
+                    <p className="t1">console.log(x)</p>
+                    <hr className="bg-white" />
+                    <p className="t">Resultado abaixo!</p>
+                    <p>Ola, Mundo</p>
+                    <hr className="bg-white" />
+                    <p>Exemplo 2</p>
+                    <p className="t1">const y = 2 + 2</p>
+                    <p className="t1">console.log(y)</p>
+                    <hr className="bg-white" />
+                    <p>4</p>
+                </div>
                 <p className="lead">
-                    <Link to="/" target={nova} className="btn btn-outline-warning text-dark">
+                    <a href="/" target={nova} className="btn btn-outline-warning text-dark">
                         Quero conhecer
-                    </Link>
+                    </a>
                 </p>
                 </div>
                 <div className="bg-white box-shadow mx-auto" ></div>
             </div>
-            <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
                 <div className="my-3 py-3">
-                <h2 className="display-5">Another headline</h2>
-                <p className="lead">And an even wittier subheading.</p>
+                <h2 className="display-5">Aprenda Reactjs aqui</h2>
+                <img src="https://www.luiztools.com.br/wp-content/uploads/2020/06/reactJS.png" alt="ico" className="ico" />
+                <p className="lead">
+                O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU). Ela oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites.Os componentes dessa ferramenta foram desenvolvidos pelo Facebook. Ela foi lançada em 2013 como uma ferramenta JavaScript de código aberto. Atualmente, ela permanece na frente das suas principais competidoras, como a Angular e a Bootstrap, as duas bibliotecas JavaScript mais bem vendidas.  Neste artigo, vamos ajudar você a entender mais sobre o que é React e ele como funciona. Assim, você vai poder tirar proveito para incrementar seu trabalho como desenvolvedor front-end.
+                </p>
+                <p><strong className="lead">Por Que Usar React? </strong>O React tem sido usado por grandes companhias ao redor do mundo. Algumas delas: Netflix, Airbnb, American Express, Facebook, WhatsApp, eBay e Instagram. Essa é a prova de que a ferramenta tem um número de vantagens que não têm nem comparação nos seus competidores.   Abaixo estão algumas das razões para usar o React.
+                </p>
+                <p><strong className="lead">1. Fácil de Usar. </strong>
+                    O React é uma biblioteca de código aberto para interfaces gráficas (GUI) que tem como foco uma só coisa: tornar a experiência do usuário com a interface mais eficiente. Ela pode ser categorizada como o “V” no padrão MVC (Model-View-Controller). Como um desenvolvedor de JavaScript, vai ser fácil para você entender o básico do React. Para fortalecer seu entendimento, dê uma explorada em alguns dos tutoriais já existentes sobre o React. Eles contêm muita informação de como usar a ferramenta, como vídeos, tutoriais e dados que podem enriquecer seus conhecimentos.
+                </p>
+                <p>
+                    <strong>2. Suporte a Componente Reusável em Java. </strong> O React permite que você reuse componentes que tenham sido desenvolvido em outras aplicações e que usem a mesma função. A função de reusabilidade é uma vantagem importante para desenvolvedores em geral.
+                </p>
+                <p><strong className="lead">3. Componente Fácil de Escrever. </strong>
+                    Também conhecido como React JS, o componente do React é fácil de escrever porque ele usa JSX, uma extensão de sintaxe opcional para JavaScript. Ela permite que você combine HTML com JavaScript.   O JSX é uma excelente combinação de JavaScript e HTML. Ela simplesmente simplifica toda a estrutura de codificação escrita de um site. Além disso, a extensão também faz com que a renderização de múltiplas funções seja mais fácil. Ainda que o JSX não seja a extensão de sintaxe mais popular, ela tem provado ser bastante eficiente. Especialmente quando falamos em desenvolver componentes especiais ou aplicações de alto rendimento.</p>
+                <p>
+                    <strong>4. Melhor Desempenho com Virtual DOM. </strong> 
+                    O React melhora, de maneira eficiente, o processo de atualização do DOM (Document Object Model). Como você deve saber, esse processo pode causar muita frustração em projetos baseados em aplicações-web. Por sorte, o React usa Virtual DOMs, então você consegue driblar esses problemas. A ferramenta permite que você construa um Virtual DOM e o hospede na memória. Como resultado, toda vez que acontece uma mudança no DOM real, o virtual se modifica imediatamente.      O sistema vai impedir que o DOM real faça atualizações constantemente. Por conta disso, a velocidade da sua aplicação não vai ser interrompida.
+                </p>
+                <p><strong className="lead">5. Amigável a SEO. </strong>
+                    O React permite que você crie uma interface de usuário que pode ser encontrada e acessa em diversos motores de busca. Esse recurso é uma vantagem sensacional porque nem todos os frameworks de JavaScript são amigáveis a SEO. Junto a isso, como o React melhora o processamento da sua aplicação, ele também pode melhorar os resultados do seu SEO. Afinal, o tempo de carregamento de um site é um fator crucial na otimização de SEO.   Porém, você deve se atentar ao fato de que o React é apenas uma biblioteca JavaScript. Isso significa que você não pode fazer tudo com ele. O uso de bibliotecas adicionais podem ser necessárias para propósitos de gerenciamento, apontamento ou interações complexas.</p>
                 </div>
                 <div className="bg-white box-shadow mx-auto" ></div>
+                <p className="lead">
+                    <a href="/" target={nova} className="btn btn-outline-info text-dark">
+                        Quero conhecer
+                    </a>
+                </p>
             </div>
             </div>
 
             <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
             <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div className="my-3 p-3">
-                <h2 className="display-5">Another headline</h2>
-                <p className="lead">And an even wittier subheading.</p>
+                <h2 className="display-5">Conteudo complementares JvaScript</h2>
+                <p>
+                    <strong className="lead">Pronto para experimentar o JavaScript?</strong>
+                    Comece a aprender aqui digitando seu primeiro nome entre aspas e terminando com um ponto e vírgula. Por exemplo, você pode digitar o nome "Jamie";  e pressionar enter.</p>
+                    <br />
+                    <p className="lead">
+                    <a href="https://www.javascript.com/" target={nova} className="btn btn-outline-info text-dark">
+                        Site oficial JavaScript
+                    </a>
+                </p>
                 </div>
                 <div className="bg-white box-shadow mx-auto"></div>
             </div>
             <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                 <div className="my-3 py-3">
-                <h2 className="display-5">Another headline</h2>
-                <p className="lead">And an even wittier subheading.</p>
+                <h2 className="display-5">Conteudo complementares React</h2>
+                <p>
+                    <strong className="lead">Pronto para experimentar o JavaScript?</strong>
+                    Pronto para experimentar o JavaScript?Comece a aprender aqui com os exemplos prático no site oficial do react. Aprenda sobre componentes hooks e as novidades que o react vem trazendo a cada dia, fique sempre por dentro.</p>
+                    <br />
+                    <p className="lead">
+                    <a href="https://reactjs.org/" target={nova} className="btn btn-outline-info text-dark">
+                        Site oficial React
+                    </a>
+                </p>
                 </div>
                 <div className="bg-white box-shadow mx-auto" ></div>
             </div>
@@ -227,44 +285,44 @@ export default function Home() {
             <div className="row">
                 <div className="col-12 col-md">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-                <small className="d-block mb-3 text-muted">&copy; 2017-2018</small>
+                <small className="d-block mb-3 text-muted">&copy; 2022 José Santana de Jesus- Developer</small>
                 </div>
                 <div className="col-6 col-md">
-                <h5>Features</h5>
+                <h5>Conheçamos</h5>
                 <ul className="list-unstyled text-small">
-                    <li><Link className="text-muted" to="/">Cool stuff</Link></li>
-                    <li><Link className="text-muted" to="/">Random feature</Link></li>
-                    <li><Link className="text-muted" to="/">Team feature</Link></li>
-                    <li><Link className="text-muted" to="/">Stuff for developers</Link></li>
-                    <li><Link className="text-muted" to="/">Another one</Link></li>
-                    <li><Link className="text-muted" to="/">Last time</Link></li>
+                    <li><a className="text-muted" href="/">adin</a></li>
+                    <li><a className="text-muted" href="/">Facebook</a></li>
+                    <li><a className="text-muted" href="/">Youtube</a></li>
+                    <li><a className="text-muted" href="/">Github</a></li>
+                    <li><a className="text-muted" href="/">Whatssap</a></li>
+                    <li><a className="text-muted" href="/">Telegram</a></li>
                 </ul>
                 </div>
                 <div className="col-6 col-md">
-                <h5>Resources</h5>
+                <h5>Contato</h5>
                 <ul className="list-unstyled text-small">
-                    <li><Link className="text-muted" to="/">Resource</Link></li>
-                    <li><Link className="text-muted" to="/">Resource name</Link></li>
-                    <li><Link className="text-muted" to="/">Another resource</Link></li>
-                    <li><Link className="text-muted" to="/">Final resource</Link></li>
+                    <li>E-mail: josesantanadeveloper@gmail.com</li>
+                    <li>Phone: (75)998172448</li>
+                    <li>Whatsapp: (75)998239680</li>
+                    <li>Telegram: (75)998239680</li>
                 </ul>
                 </div>
                 <div className="col-6 col-md">
-                <h5>Resources</h5>
+                <h5>Projetos</h5>
                 <ul className="list-unstyled text-small">
-                    <li><Link className="text-muted" to="/">Business</Link></li>
-                    <li><Link className="text-muted" to="/">Education</Link></li>
-                    <li><Link className="text-muted" to="/">Government</Link></li>
-                    <li><Link className="text-muted" to="/">Gaming</Link></li>
+                    <li><a className="text-muted" href="https://conversordemoeda.ga">Ceversor de moedas</a></li>
+                    <li><a className="text-muted" href="https://developer-js.netlify.app/">Portifolio</a></li>
+                    <li><a className="text-muted" href="https://admin-product.netlify.app/">Painel Admin</a></li>
+                    <li><a className="text-muted" href="/">Home</a></li>
                 </ul>
                 </div>
                 <div className="col-6 col-md">
-                <h5>About</h5>
+                <h5>Lista complementares</h5>
                 <ul className="list-unstyled text-small">
-                    <li><Link className="text-muted" to="/">Team</Link></li>
-                    <li><Link className="text-muted" to="/">Locations</Link></li>
-                    <li><Link className="text-muted" to="/">Privacy</Link></li>
-                    <li><Link className="text-muted" to="/">Terms</Link></li>
+                    <li><a className="text-muted" href="https://www.javascript.com/">JvaScript</a></li>
+                    <li><a className="text-muted" href="https://nodejs.org/en/">Nosejs</a></li>
+                    <li><a className="text-muted" href="https://reactjs.org/">React</a></li>
+                    <li><a className="text-muted" href="https://www.python.org/">Python</a></li>
                 </ul>
                 </div>
             </div>
