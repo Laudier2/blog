@@ -290,39 +290,39 @@ export default function Home() {
                 <div className="col-6 col-md">
                 <h5>Conheçamos</h5>
                 <ul className="list-unstyled text-small">
-                    <li><a className="text-muted" href="/">adin</a></li>
-                    <li><a className="text-muted" href="/">Facebook</a></li>
-                    <li><a className="text-muted" href="/">Youtube</a></li>
-                    <li><a className="text-muted" href="/">Github</a></li>
-                    <li><a className="text-muted" href="/">Whatssap</a></li>
-                    <li><a className="text-muted" href="/">Telegram</a></li>
+                    <li><a className="text-muted a" href="/">adin</a></li>
+                    <li><a className="text-muted a" href="/">Facebook</a></li>
+                    <li><a className="text-muted a" href="/">Youtube</a></li>
+                    <li><a className="text-muted a" href="/">Github</a></li>
+                    <li><a className="text-muted a" href="/">Whatssap</a></li>
+                    <li><a className="text-muted a" href="/">Telegram</a></li>
                 </ul>
                 </div>
                 <div className="col-6 col-md">
                 <h5>Contato</h5>
                 <ul className="list-unstyled text-small">
-                    <li>E-mail: josesantanadeveloper@gmail.com</li>
-                    <li>Phone: (75)998172448</li>
-                    <li>Whatsapp: (75)998239680</li>
-                    <li>Telegram: (75)998239680</li>
+                    <li className="a">E-mail: josesantanadeveloper@gmail.com</li>
+                    <li className="a">Phone: (75)998172448</li>
+                    <li className="a">Whatsapp: (75)998239680</li>
+                    <li className="a">Telegram: (75)998239680</li>
                 </ul>
                 </div>
                 <div className="col-6 col-md">
                 <h5>Projetos</h5>
                 <ul className="list-unstyled text-small">
-                    <li><a className="text-muted" href="https://conversordemoeda.ga">Ceversor de moedas</a></li>
-                    <li><a className="text-muted" href="https://developer-js.netlify.app/">Portifolio</a></li>
-                    <li><a className="text-muted" href="https://admin-product.netlify.app/">Painel Admin</a></li>
-                    <li><a className="text-muted" href="/">Home</a></li>
+                    <li><a className="text-muted a" href="https://conversordemoeda.ga">Ceversor de moedas</a></li>
+                    <li><a className="text-muted a" href="https://developer-js.netlify.app/">Portifolio</a></li>
+                    <li><a className="text-muted a" href="https://admin-product.netlify.app/">Painel Admin</a></li>
+                    <li><a className="text-muted a" href="/">Home</a></li>
                 </ul>
                 </div>
                 <div className="col-6 col-md">
                 <h5>Lista complementares</h5>
                 <ul className="list-unstyled text-small">
-                    <li><a className="text-muted" href="https://www.javascript.com/">JvaScript</a></li>
-                    <li><a className="text-muted" href="https://nodejs.org/en/">Nosejs</a></li>
-                    <li><a className="text-muted" href="https://reactjs.org/">React</a></li>
-                    <li><a className="text-muted" href="https://www.python.org/">Python</a></li>
+                    <li><a className="text-muted a" href="https://www.javascript.com/">JvaScript</a></li>
+                    <li><a className="text-muted a" href="https://nodejs.org/en/">Nosejs</a></li>
+                    <li><a className="text-muted a" href="https://reactjs.org/">React</a></li>
+                    <li><a className="text-muted a" href="https://www.python.org/">Python</a></li>
                 </ul>
                 </div>
             </div>
