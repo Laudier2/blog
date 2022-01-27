@@ -1,5 +1,6 @@
 import React from 'react'
-import Download from './Download'
+//import Download from './Download'
+import { Link } from 'react-router-dom'
 import './style.css'
 
 export default function NavBar() {
@@ -18,24 +19,7 @@ export default function NavBar() {
                     <a className="py-2 d-none d-md-inline-block" target={nova} href="https://github.com/Laudier2?tab=repositories">GitHub</a>
                     <a className="py-2 d-none d-md-inline-block" target={nova} href="https://developer-js.netlify.app/">Portifolio</a> 
                     <a className="py-2 d-none d-md-inline-block" target={nova} href="https://www.linkedin.com/in/jos%C3%A9-santana-de-jesus-8949b3124/">Linkdin</a> 
-                    <button
-                        className="navbar-toggler bg-light text-dark"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarToggleExternalContent"
-                        aria-controls="navbarToggleExternalContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon"></span> 
-                    </button>
-                    <div
-                        className="collapse bg-light btn-group-toggle p-2"
-                        id="navbarToggleExternalContent"
-                    >
-                        <br />
-                        <Download />
-                    </div>
+                    <Link className="py-2 d-none d-md-inline-block" target={nova} to="/downloads">Download</Link> 
                  </div>
             </nav>
         </>

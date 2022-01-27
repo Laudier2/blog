@@ -1,7 +1,7 @@
 import React from 'react';
 //import { Link } from 'react-router-dom';
 //import Marquee from 'react-fast-marquee'
-import Download from './Download'
+//import Download from './Download'
 import './style.css';
 
 const Nav = () => {
