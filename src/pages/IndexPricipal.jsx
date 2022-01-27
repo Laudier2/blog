@@ -10,9 +10,9 @@ export default function IndexPricipal() {
             <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
             <img src="t2.png" className="imgr" alt="img" />
                 
-            <div className="col-md-5 p-lg-5 mx-auto">
-                <h1 className="display-4 font-weight-normal titolo2">Laudier ST Developer</h1>
-                <p className="lead font-weight-normal">Crie gerecie seu sistema ou programas por aqui.</p>
+            <div className="col-md-4 p-lg-5 mx-auto">
+                <h1 className="display-5 font-weight-normal titolo2">Laudier ST Developer</h1>
+                <p className="lead font-weight-normal">Tire suas duvidas por aqui</p>
                 <a className="btn btn-outline-secondary" target={nova} href="https://developer-js.netlify.app/">Contatinos</a>
             </div>
             <div className="product-device box-shadow d-none d-md-block"></div>
