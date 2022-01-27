@@ -63,7 +63,7 @@ export default function Download() {
     return(
         <div>
             <NavBar />
-            <h1 className="titoloD mt-5">Aria de Downloads e Instalação independentes</h1>
+            <h1 className="titoloD mt-1">Aria de Downloads e Instalação independentes</h1>
             <div className="mt-5 bg-person rounded">
                 {lista.map(res => (
                     <ul className="lado rounded col-md-3 bg-info mt-2" key={res}>
