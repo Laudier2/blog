@@ -66,7 +66,7 @@ export default function Download() {
             <h1 className="titoloD mt-1">Aria de Downloads e Instalação independentes</h1>
             <div className="mt-1 bg-person rounded">
                 {lista.map(res => (
-                    <ul className="lado rounded col-md-3 bg-info mt-2" key={res}>
+                    <ul className="lado rounded col-md-3 bg-info" key={res}>
                         <h3 className="titolo-j mt-2">{res.name}</h3>
                         <p>{res.texto}</p>
                         <a href={res.link} target={nova} className="btn btn-success mb-2 btn-block">
