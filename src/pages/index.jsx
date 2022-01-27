@@ -17,7 +17,7 @@ import Ubuntu from '../components/Ubuntu'
 export default function Home() {
 
     return(
-        <>
+        <div className="">
 
             <Nav />
             <IndexPricipal />
@@ -31,9 +31,9 @@ export default function Home() {
             <Ubuntu />
             <RcComplementar />
             <JsComplementar />
-            <Ads slot="5588472210" className="conatiner" />
+            <Ads slot="5588472210" />
             <Footer />
             
-        </>
+        </div>
     )
 }

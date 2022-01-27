@@ -75,7 +75,7 @@ export default function Download() {
                     </ul>
                 ))}
                 <br />
-                <Ads slot="5588472210" className="conatiner" />
+                <Ads slot="5588472210" />
             </div>
         </div>
     )
