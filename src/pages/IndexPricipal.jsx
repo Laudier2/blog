@@ -13,7 +13,7 @@ export default function IndexPricipal() {
             <div className="col-md-4 p-lg-5 mx-auto">
                 <h1 className="display-5 font-weight-normal titolo2">Laudier ST Developer</h1>
                 <p className="lead font-weight-normal">Tire suas duvidas por aqui</p>
-                <a className="btn btn-outline-secondary" target={nova} href="https://developer-js.netlify.app/">Contatinos</a>
+                <a className="btn btn-outline-secondary" target={nova} href="https://developer-js.netlify.app/">Contate-nos</a>
             </div>
             <div className="product-device box-shadow d-none d-md-block"></div>
             <div className="product-device product-device-2 box-shadow d-none d-md-block"></div>

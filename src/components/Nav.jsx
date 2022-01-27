@@ -23,7 +23,7 @@ const Nav = () => {
           <a className="nav-link text-light" target={nova} href="https://www.youtube.com/channel/UCk8HdZCe8RFMkZqVIQ0mL3g">Youtube</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-light" target={nova} href="https://www.linkedin.com/in/jos%C3%A9-santana-de-jesus-8949b3124/">Linkdin</a>
+          <a className="nav-link text-light" target={nova} href="https://www.linkedin.com/in/jos%C3%A9-santana-de-jesus-8949b3124/">Linkedin</a>
         </li>
         <li className="nav-item">
           <a className="nav-link text-light" target={nova} href="/downloads">Download</a>
