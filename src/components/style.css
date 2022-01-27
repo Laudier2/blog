@@ -7,6 +7,10 @@
     padding: 5px;
     border-radius: 80px;
 }
+.icoN{
+    width: 70px;
+    border-radius: 100px;
+}
 .t{
     font-size: 12px;
 }
@@ -107,6 +111,13 @@
         border-radius: 5px;
         margin: 3px;
         width: 100%;
+    }
+    .nav-link{
+        font-size: 10px;
+        margin-left: -20px;
+    }
+    .bard{
+        margin-left: 10px;
     }
     
 }
