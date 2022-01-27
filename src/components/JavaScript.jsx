@@ -41,7 +41,7 @@ export default function JavaScript() {
                     <br />
                     <div className="rounded bg-dark col-md-12 text-white p-4 mb-2">
                     <hr className="bg-white" />
-                    <p>A baixo estamos vendo o </p>
+                    <p>Abaixo estamos vendo o </p>
                     <p className="t1">let x = "Ola, Mundo"</p>
                     <p className="t1">console.log(x)</p>
                     <hr className="bg-white" />

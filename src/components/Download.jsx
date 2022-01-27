@@ -20,7 +20,7 @@ export default function Download() {
         },  
         {
             name: "Baixar Nodejs",
-            texto: 'Fassa o download direto no site oficial Npde.',
+            texto: 'Fassa o download direto no site oficial Node.',
             link: "https://nodejs.org/en/"
         },
         {
