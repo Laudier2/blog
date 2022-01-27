@@ -3,6 +3,7 @@ import './style.css'
 
 export default function Footer() {
 
+    const nova = "_blank"
 
     return(
         <>
@@ -15,10 +16,10 @@ export default function Footer() {
                     <div className="col-6 col-md">
                     <h5>Conheça-nos</h5>
                     <ul className="list-unstyled text-small">
-                        <li><a className="text-muted a" href="https://www.linkedin.com/in/jos%C3%A9-santana-de-jesus-8949b3124/">Linkedin</a></li>
-                        <li><a className="text-muted a" href="https://github.com/Laudier2?tab=repositories">Github</a></li>
-                        <li><a className="text-muted a" href="https://developer-js.netlify.app/">Portfólio</a></li>
-                        <li><a className="text-muted a" href="https://www.youtube.com/channel/UCk8HdZCe8RFMkZqVIQ0mL3g">Youtube</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://www.linkedin.com/in/jos%C3%A9-santana-de-jesus-8949b3124/">Linkedin</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://github.com/Laudier2?tab=repositories">Github</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://developer-js.netlify.app/">Portfólio</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://www.youtube.com/channel/UCk8HdZCe8RFMkZqVIQ0mL3g">Youtube</a></li>
                     </ul>
                     </div>
                     <div className="col-6 col-md">
@@ -33,19 +34,19 @@ export default function Footer() {
                     <div className="col-6 col-md">
                     <h5>Projetos</h5>
                     <ul className="list-unstyled text-small">
-                        <li><a className="text-muted a" href="https://conversordemoeda.ga">Conversor de moedas</a></li>
-                        <li><a className="text-muted a" href="https://developer-js.netlify.app/">Portfólio</a></li>
-                        <li><a className="text-muted a" href="https://admin-product.netlify.app/">Painel Admin</a></li>
-                        <li><a className="text-muted a" href="/">Home</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://conversordemoeda.ga">Conversor de moedas</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://developer-js.netlify.app/">Portfólio</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://admin-product.netlify.app/">Painel Admin</a></li>
+                        <li><a className="text-muted a" target={nova} href="/">Home</a></li>
                     </ul>
                     </div>
                     <div className="col-6 col-md">
                     <h5>Lista complementares</h5>
                     <ul className="list-unstyled text-small">
-                        <li><a className="text-muted a" href="https://www.javascript.com/">JavaScript</a></li>
-                        <li><a className="text-muted a" href="https://nodejs.org/en/">Nodejs</a></li>
-                        <li><a className="text-muted a" href="https://reactjs.org/">React</a></li>
-                        <li><a className="text-muted a" href="https://www.python.org/">Python</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://www.javascript.com/">JavaScript</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://nodejs.org/en/">Nodejs</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://reactjs.org/">React</a></li>
+                        <li><a className="text-muted a" target={nova} href="https://www.python.org/">Python</a></li>
                     </ul>
                     </div>
                 </div>
