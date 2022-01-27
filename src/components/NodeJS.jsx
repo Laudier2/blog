@@ -23,7 +23,7 @@ export default function NodeJS() {
                 <br /><br />
                 <div className="rounded bg-dark col-md-12 text-white p-4 mb-2">
                     <hr className="bg-white" />
-                    <p>A baixo estamos declarando uma variavel y e atribuindo o valor de Olá, mundo a ela, deposi mostrando na tela com o comando console.log(y).</p>
+                    <p>Abaixo estamos declarando uma variavel y e atribuindo o valor de Olá, mundo a ela, depois mostrando na tela com o comando console.log(y).</p>
                     <p className="t1">let x = "Ola, Mundo"</p>
                     <p className="t1">console.log(x)</p>
                     <hr className="bg-white" />

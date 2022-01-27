@@ -11,7 +11,7 @@ export default function Programacao() {
                 <div className="bg-dark1 mr-md-3 rounded pt-md-5 text-dark overflow-hidden">
                     <div className="my-3 py-3 ml-4 mr-3">
                         <img src="https://becode.com.br/wp-content/uploads/2016/10/Por-que-usar-JavaScript.gif" alt="gif" className="ico" /> 
-                        <h2 className="display-5 titolo mb-4">Aprenda a programa por aqui!</h2>
+                        <h2 className="display-5 titolo mb-4">Aprenda a programar por aqui!</h2>
                         <strong className="lead">Algoritmos</strong>
                         <p>Um algoritmo é uma sequência lógica finita de passos para realizar uma tarefa ou resolver um problema. Em nosso dia a dia utilizamos algoritmos para realizar nossas atividades, definindo a sequência de atividades que devemos fazer para atingir um objetivo. Um exemplo simples é uma receita. Um algoritmo é, num certo sentido, um programa abstrato — dizendo de outra forma, um programa é um algoritmo concretizado. Os programas são visualizados mais facilmente como uma coleção de algoritmos menores combinados de um modo único — da mesma forma que uma casa é construída a partir de componentes.
                             Dessa forma, um algoritmo é uma descrição passo a passo de como o computador irá executar uma operação específica, como, por exemplo, uma ordenação. Um programa, por outro lado, é uma entidade que na verdade implementa uma ou mais operações de forma que seja útil para as pessoas que o utilizam.</p>

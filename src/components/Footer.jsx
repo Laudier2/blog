@@ -13,13 +13,13 @@ export default function Footer() {
                     <small className="d-block mb-3 text-muted">&copy; 2022 José Santana de Jesus- Developer</small>
                     </div>
                     <div className="col-6 col-md">
-                    <h5>Conheçamos</h5>
+                    <h5>Conheça-nos</h5>
                     <ul className="list-unstyled text-small">
-                        <li><a className="text-muted a" href="/">adin</a></li>
+                        <li><a className="text-muted a" href="/">Linkedin</a></li>
                         <li><a className="text-muted a" href="/">Facebook</a></li>
                         <li><a className="text-muted a" href="/">Youtube</a></li>
                         <li><a className="text-muted a" href="/">Github</a></li>
-                        <li><a className="text-muted a" href="/">Whatssap</a></li>
+                        <li><a className="text-muted a" href="/">Whatsapp</a></li>
                         <li><a className="text-muted a" href="/">Telegram</a></li>
                     </ul>
                     </div>
@@ -35,8 +35,8 @@ export default function Footer() {
                     <div className="col-6 col-md">
                     <h5>Projetos</h5>
                     <ul className="list-unstyled text-small">
-                        <li><a className="text-muted a" href="https://conversordemoeda.ga">Ceversor de moedas</a></li>
-                        <li><a className="text-muted a" href="https://developer-js.netlify.app/">Portifolio</a></li>
+                        <li><a className="text-muted a" href="https://conversordemoeda.ga">Conversor de moedas</a></li>
+                        <li><a className="text-muted a" href="https://developer-js.netlify.app/">Portfólio</a></li>
                         <li><a className="text-muted a" href="https://admin-product.netlify.app/">Painel Admin</a></li>
                         <li><a className="text-muted a" href="/">Home</a></li>
                     </ul>
@@ -44,8 +44,8 @@ export default function Footer() {
                     <div className="col-6 col-md">
                     <h5>Lista complementares</h5>
                     <ul className="list-unstyled text-small">
-                        <li><a className="text-muted a" href="https://www.javascript.com/">JvaScript</a></li>
-                        <li><a className="text-muted a" href="https://nodejs.org/en/">Nosejs</a></li>
+                        <li><a className="text-muted a" href="https://www.javascript.com/">JavaScript</a></li>
+                        <li><a className="text-muted a" href="https://nodejs.org/en/">Nodejs</a></li>
                         <li><a className="text-muted a" href="https://reactjs.org/">React</a></li>
                         <li><a className="text-muted a" href="https://www.python.org/">Python</a></li>
                     </ul>
