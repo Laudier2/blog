@@ -17,23 +17,23 @@ import Ubuntu from '../components/Ubuntu'
 export default function Home() {
 
     return(
-        <div className="">
-
+        <>
             <Nav />
-            <IndexPricipal />
-            <Rcter />
-            <Node />
-            <Python />
-            <JavaScript />
-            <ReactJS />
-            <Programa />
-            <Kali />
-            <Ubuntu />
-            <RcComplementar />
-            <JsComplementar />
-            <Ads slot="5588472210" />
-            <Footer />
-            
-        </div>
+            <div className="container1 mt-5">
+                <IndexPricipal />
+                <Rcter />
+                <Node />
+                <Python />
+                <JavaScript />
+                <ReactJS />
+                <Programa />
+                <Kali />
+                <Ubuntu />
+                <RcComplementar />
+                <JsComplementar />
+                <Ads slot="5588472210" />
+                <Footer />                
+            </div>
+        </>
     )
 }

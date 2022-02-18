@@ -6,7 +6,7 @@ const Nav = () => {
   const nova = "_blank"
 
   return (
-    <div>
+    <div className="fixed-top">
       <ul className="nav nav-tabs bg-dark">
         <li className="nav-item">
           <a className="nav-link active" href="/">

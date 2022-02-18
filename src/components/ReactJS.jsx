@@ -6,7 +6,7 @@ export default function ReactJS() {
     const nova = "_blank"
 
     return(
-        <>
+        <div className="">
             <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 overflow-hidden">
                 <div className="my-3 py-3">
                 
@@ -39,6 +39,6 @@ export default function ReactJS() {
                     </a>
                 </p>
             </div>   
-        </>
+        </div>
     )
 }
