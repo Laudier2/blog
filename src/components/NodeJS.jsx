@@ -7,7 +7,7 @@ export default function NodeJS() {
 
     return(
         <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-            <div className="bg-dark1  rounded mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-blacks overflow-hidden">
+            <div className="bg-dark1 rounded mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-blacks overflow-hidden">
                 <div className="my-3 py-3">
     
                 <img src="https://www.opus-software.com.br/wp-content/uploads/2018/09/nodejs.jpg" alt="img" className="ico mb-2" />

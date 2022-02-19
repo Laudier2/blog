@@ -14,7 +14,7 @@ const Nav = () => {
           </a>
         </li>
         <li className="nav-item bard">
-          <a className="nav-link text-light" target={nova} href="https://developer-js.netlify.app/">Portfólio</a>
+          <a className="nav-link text-light" target={nova} href="https://laudierstdev.ga/">Portfólio</a>
         </li>
         <li className="nav-item">
           <a className="nav-link text-light" target={nova} href="https://github.com/Laudier2?tab=repositories">GitHub</a>
