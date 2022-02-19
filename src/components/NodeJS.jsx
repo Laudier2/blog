@@ -6,7 +6,7 @@ export default function NodeJS() {
     const nova = "_blank"
 
     return(
-        <div className="mrg">
+        <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
             <div className="bg-success1 rounded mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-blacks overflow-hidden">
                 <div className="my-3 py-3">
     

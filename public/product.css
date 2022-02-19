@@ -7,6 +7,12 @@ a{
   box-shadow: 0 0 0 0 black;
 }
 
+
+body{
+  background:rgb(80, 80, 77);
+  color: black;
+}
+
 .ico{
   width: 120px;
   padding: 5px;
